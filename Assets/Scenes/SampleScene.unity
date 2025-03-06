@@ -150,7 +150,7 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
@@ -339,14 +339,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b06a473232877004ca7b68246fa4726d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 1612842350}
-  _moveSpeed: 2
-  _aggroRadius: 5
-  _returnToOriginRadius: 15
-  _aggroMat: {fileID: 2100000, guid: 0a7f17f6b90e4164085a8f3729ac6443, type: 2}
-  _neutralMat: {fileID: 2100000, guid: 3fe7a44d4b9a15f4882a6602eb5f3e7a, type: 2}
-  _returningMat: {fileID: 2100000, guid: 925486ca696384345b3caf63c781bba8, type: 2}
-  _curState: 0
+  player: {fileID: 1612842350}
+  moveSpeed: 4
+  aggroRadius: 5
+  returnToOriginRadius: 15
+  aggroMat: {fileID: 2100000, guid: 0a7f17f6b90e4164085a8f3729ac6443, type: 2}
+  idleMat: {fileID: 2100000, guid: 3fe7a44d4b9a15f4882a6602eb5f3e7a, type: 2}
+  returningMat: {fileID: 2100000, guid: 925486ca696384345b3caf63c781bba8, type: 2}
+  _currentState: 0
 --- !u!65 &760111448
 BoxCollider:
   m_ObjectHideFlags: 0
